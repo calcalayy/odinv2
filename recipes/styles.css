@@ -1,0 +1,7 @@
+* {
+    color: white;
+    background-color: black;
+    font-family: Unbounded;
+    margin: 5px;
+}
+@font-face { font-family: Unbounded; src: url('Unbounded-Light.ttf'); } 
