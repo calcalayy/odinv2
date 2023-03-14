@@ -3,6 +3,7 @@
     background-color: black;
     font-family: Unbounded;
     margin: 5px;
+    padding: 4px;
     text-align: center;
 }
 @font-face { font-family: Unbounded; src: url('Unbounded-Light.ttf'); } 
@@ -18,7 +19,18 @@
 }
 
 img {
-    max-width: 100%;
-    height: auto;
-    margin-right: 25px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+}
+
+ul {
+    text-align: center;
+    list-style-position: inside;
+}
+
+ol {
+    text-align: center;
+    list-style-position: inside;
 }
