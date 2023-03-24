@@ -3,15 +3,17 @@
     padding: 0;
     box-sizing: border-box;
     font-family: Unbounded;
+    color: white;
   }
   
 .container {
     display: flex;
-    color: black;
+    color: white;
+    background-color: white;
 }
 
 .container div {
-    background: aliceblue;
+    background: darkblue;
     border: 4px solid rgb(13, 156, 217);
     height: 100px;
     flex: 1 1 0%;
@@ -22,4 +24,8 @@
     padding: 25px;
 }
 
+.list {
+    text-align: center;
+    background-color: black;
+}
 @font-face { font-family: Unbounded; src: url('../recipes/Unbounded-Light.ttf'); } 
